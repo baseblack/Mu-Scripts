@@ -10,7 +10,7 @@ specifiying them on the cmdline.
 
 For example:
 
-  -overlay topright "14/02/12"
+    -overlay topright "14/02/12"
 
 ###SuperX Burns###
 
@@ -21,3 +21,11 @@ and the frame to start counting from, for example for a sequence of frames numbe
 than 0001 as is the default behaviour.
 
 The superrangeburn does the same, providing a burnin showing the [$first-$last] frames.
+
+**Prototype:**
+
+    `-overlay superframeburn <position> <firstframe> <opacity> <color> <fontsize>`
+
+**Example:**
+
+    `-overlay superframeburn bottomright 1326 1.0 1.0 14`
